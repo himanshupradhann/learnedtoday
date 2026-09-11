@@ -2,3 +2,7 @@
 - DSA (priority queue)
 - USING Linked list
 - using array
+
+# DATE 11 SEPTEMBER 2026
+- HASHING FUNCTION USING LIKED LIST
+- STRIBER 
