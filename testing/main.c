@@ -8,7 +8,7 @@
 
 //defining struct
 typedef struct hashing{
-    int KEY;
+    char KEY;
     unsigned int frequency;
     struct hashing *next;
 } hashing;
@@ -20,6 +20,10 @@ void printt(hashing* head) {
         printf("KEY: %c -> %d\n", current->KEY, current->frequency);
         current = current->next;
     }
+}
+
+void arrange(hashing *head){
+
 }
 
 //main function

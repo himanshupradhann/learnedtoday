@@ -2,14 +2,7 @@
 #include <stdlib.h>
 #include "hash.h"
 
-typedef struct hashing{
-    int value;
-    unsigned int frequency;
-    struct hashing *next;
-} hashing;
-
-void createhash(hashing **head,int value){
-
+void createhash(hashing **head,void *value){
     hashing * current =*head;
     while(current!=NULL){
         if(current->value==value){
