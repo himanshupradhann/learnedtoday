@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-
-
 //
 #include "../hashing/utils/characters/hash.h"
 #define max 5
 
 //defining struct
 typedef struct hashing{
-    char KEY;
+    int KEY;
     unsigned int frequency;
     struct hashing *next;
 } hashing;
+
 
 //custom print statement
 void printt(hashing* head) {

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "hash.h"
 
-void createhash(hashing **head,void *value){
+void createhash(hashing **head,int value){
     hashing * current =*head;
     while(current!=NULL){
         if(current->value==value){
