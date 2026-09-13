@@ -39,13 +39,13 @@ void add_core(const void* a, const void* b, void* result, Datatype data) {
 
 int main(void) {
     // Scenario 1: Doubles
-    double x = 10.5;
-    double y = 20.3;
+    double x = 0.5;
+    double y = 0.3;
     double d_result = 0; // Fix: Allocate actual stack memory for the result
     
     // Clean call: No addresses or enums needed!
     smart_add(x, y, d_result);
-    printf("Double Result: %f\n", d_result);
+    printf("Double github push Result: %f\n", d_result);
 
     // Scenario 2: Integers
     int a = 5;
