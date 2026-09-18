@@ -13,9 +13,10 @@
 - UPDATE
 - STARTED TO MAKE HP_LIB 
     standard c library for dsa practceeeee
-<<<<<<< HEAD
 -code
     learned how void* works , made a simple add function which can add in any data type 
-=======
-- GENERIC PROGRAMMING
->>>>>>> ce49518 (Save my local changes)
+
+
+# date 17 september 2026
+
+- nothing much in the past days made 2 app production grade using ai 
