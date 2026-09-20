@@ -20,3 +20,6 @@
 # date 17 september 2026
 
 - nothing much in the past days made 2 app production grade using ai 
+
+# date 20 sept
+- midsem are on
