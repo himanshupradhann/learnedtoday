@@ -23,3 +23,8 @@
 
 # date 20 sept
 - midsem are on
+
+# date 6 october
+- starting it cool and easy 
+- working on hplib from today
+- making a basic linked list implementaion and header files

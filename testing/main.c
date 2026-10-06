@@ -21,9 +21,6 @@ void printt(hashing* head) {
     }
 }
 
-void arrange(hashing *head){
-
-}
 
 //main function
 int main() {
