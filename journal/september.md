@@ -27,4 +27,8 @@
 # date 6 october
 - starting it cool and easy 
 - working on hplib from today
-- making a basic linked list implementaion and header files
+- making a basic linked list implementaion and header filss
+ 
+
+ # date 11 oct 
+ - dsa freq array

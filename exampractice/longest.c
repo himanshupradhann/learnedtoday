@@ -1,31 +1,24 @@
 #include <stdio.h>
 
+#define Box(T) struct { \
+    T value; \
+}
+#define box_set(box, val) (box).value = (val); 
+#define box_get(box) ((box).value)
 
-int main(void) {
-  
-  char final[20];
-  int count =-1;
-  int n ;
-  printf("Enter the size of array");
-  scanf("%d",&n);
+int main(void)
+{
+    Box(char) a;
+    Box(double) b;
 
-  char str [n][20];
-    
+    box_set(b, 'A');
+    box_set(b, 3.14);
 
-  printf("Enter strings\n");
+    char x = box_get(a);
+    double y = box_get(b);
 
-  for(int i=0;i<n;i++){ 
-    scanf("%s",str[i]);
-  }
-    
-  for(int j=0;str[0][j]!='\0';j++){
-    for(int k=0;str[1][k]!='\0';k++){
-      if(str[0][j]==str[1][k]){
-        final[++count]=str[0][j];
-      }
-    }
-  }
--1
+    printf("char: %c\n", x);
+    printf("double: %f\n", y);
 
-
+    return 0;
 }
